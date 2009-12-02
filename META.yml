@@ -1,0 +1,24 @@
+---
+abstract: 'Paginate DBIx::Class::ResultSets for ExtJS consumption'
+author:
+  - "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
+build_requires:
+  Catalyst::Model::DBIC::Schema: 0.29
+  Catalyst::Test: 0
+  Catalyst::View::JSON: 0.26
+  FindBin: 0
+  SQL::Translator: 0.1103
+  Test::Deep: 0
+  Test::More: 0.92
+generated_by: 'Dist::Zilla version 1.093290'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: TraitFor-Catalyst-Controller-DoesExtPaging
+requires:
+  Catalyst::Controller::Role::DBIC::DoesPaging: 0.093200
+  Catalyst::Runtime: 5.8
+resources:
+  repository: http://github.com/frioux/Catalyst-TraitFor-Controller-DoesExtPaging
+version: 0.093350
